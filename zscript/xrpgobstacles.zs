@@ -91,3 +91,19 @@ class LargeXmasTree : ZXmasTree
 		Scale 2.0;
 	}
 }
+
+class FlourSack : Actor
+{
+	Default
+	{
+		Radius 16;
+		Height 48;
+		+SOLID
+	}
+	States
+	{
+	Spawn:
+		SACK A -1;
+		Stop;
+	}
+}

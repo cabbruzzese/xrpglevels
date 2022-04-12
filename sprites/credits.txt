@@ -12,3 +12,8 @@ STOLB0
 mohammed melaisi
 https://sketchfab.com/3d-models/stool-low-3224038611c94142bf382861ee816119
 License: CC Attribution
+
+SACKA0
+Thunder
+https://sketchfab.com/3d-models/dirty-sack-4f54fd1611cd4a8ca9983f1cf746af43
+License: CC Attribution-ShareAlike
