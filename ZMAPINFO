@@ -1,0 +1,41 @@
+map MAP01 "Devil's Pillar"
+{
+   warptrans = 1
+   next = MAP02
+   cluster = 1
+   sky1 = SKY2
+   sky2 = SKY3
+   Music = "WINNOWR"
+}
+
+map MAP02 "Dragon Inn Ruins"
+{
+   warptrans = 2
+   next = MAP03
+   cluster = 1
+   sky1 = SKY4
+   sky2 = SKY4
+   Music = "VOIDR"
+}
+
+map MAP03 "Griffin River Dam"
+{
+   warptrans = 2
+   next = MAP04
+   cluster = 1
+   sky1 = SKY2
+   sky2 = SKY3
+   Music = "VOIDR"
+}
+
+DoomEdNums
+{
+ 11001 = DevilPillar
+ 11002 = DevilPillarMedium
+ 11003 = DevilPillarSmall
+ 11004 = VillageKey
+ 11005 = BarStool
+ 11006 = BarStoolSmall
+ 11007 = SnakeStalker
+ 11008 = LargeXmasTree
+}

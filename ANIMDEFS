@@ -1,0 +1,23 @@
+Texture MILL1
+Pic MILL1 Tics 6
+Pic MILL2 Tics 6
+Pic MILL3 Tics 6
+Pic MILL4 Tics 6
+Pic MILL5 Tics 6
+Pic MILL6 Tics 6
+
+Texture MILL1R
+Pic MILL1R Tics 6
+Pic MILL2R Tics 6
+Pic MILL3R Tics 6
+Pic MILL4R Tics 6
+Pic MILL5R Tics 6
+Pic MILL6R Tics 6
+
+Texture SAW1
+Pic SAW1 Tics 4
+Pic SAW2 Tics 4
+
+Texture SAW1R
+Pic SAW1R Tics 4
+Pic SAW2R Tics 4

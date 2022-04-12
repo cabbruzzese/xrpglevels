@@ -1,0 +1,9 @@
+[enu default]
+
+FN_SNAKESERPENT = "Snake Stalker";
+
+TXT_KEY_VILLAGE = "Village Key";
+
+OB_ACIDTRAP = "%o was melted by an acid trap.";
+
+OB_SNAKESSTALKER = "%o tasted a snake stalker's venom.";

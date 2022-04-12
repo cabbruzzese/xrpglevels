@@ -1,0 +1,37 @@
+; --- Cluster 1 ---
+
+map 1 "Devil's Pillar"
+warptrans 1
+next 2
+cluster 1
+sky1 SKY2 0
+sky2 SKY3 0
+cdtrack 13
+
+map 2 "Dragon Inn Ruins"
+warptrans 2
+next 3
+cluster 1
+sky1 SKY4 0
+sky2 SKY4 0
+cdtrack 2
+
+map 3 "Griffin River Dam"
+warptrans 2
+next 4
+cluster 1
+sky1 SKY4 0
+sky2 SKY4 0
+cdtrack 3
+
+DoomEdNums
+{
+ 11001 = DevilPillar
+ 11002 = DevilPillarMedium
+ 11003 = DevilPillarSmall
+ 11004 = VillageKey
+ 11005 = BarStool
+ 11006 = BarStoolSmall
+ 11007 = SnakeImp
+ 11008 = LargeXmasTree
+}
