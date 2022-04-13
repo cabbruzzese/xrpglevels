@@ -1,0 +1,7 @@
+Lock 12 Hexen
+{
+	VillageKey
+	Message "You need the Village Key"
+	RemoteMessage "You need the Village Key"
+	Mapcolor 255 0 0
+}

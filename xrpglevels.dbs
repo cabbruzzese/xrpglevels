@@ -35,7 +35,7 @@ maps
 			}
 		}
 		overrideceiltexture = false;
-		viewpositionx = -12307.84f;
+		viewpositionx = -11926.49f;
 		defaulttoptexture = "MONK01";
 		overrideceilheight = false;
 		useresourcesinreadonlymode = false;
@@ -58,13 +58,13 @@ maps
 		overridebottomtexture = false;
 		defaultbottomtexture = "MONK01";
 		defaultfloortexture = "F_010";
-		viewpositiony = -1619.069f;
+		viewpositiony = 541.6631f;
 		defaultwalltexture = "MONK01";
 		overridetoptexture = false;
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 0.6762461f;
+		viewscale = 0.3078026f;
 		
 		reloadresourceprecommand
 		{
@@ -92,6 +92,22 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 927;
+				firstvisibleline = 24;
+				activetab = true;
+			}
 		}
 	}
 	
@@ -136,9 +152,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 2017.365f;
-		viewpositiony = -47.62457f;
-		viewscale = 0.1035864f;
+		viewpositionx = 6040.976f;
+		viewpositiony = 771.7736f;
+		viewscale = 0.1035862f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -149,7 +165,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 16;
+			gridsize = 8;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -193,8 +209,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 711;
-				firstvisibleline = 28;
+				caretposition = 1530;
+				firstvisibleline = 68;
 				activetab = true;
 			}
 		}
@@ -232,9 +248,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 591.7483f;
-		viewpositiony = -660.8172f;
-		viewscale = 0.1346628f;
+		viewpositionx = 1349.022f;
+		viewpositiony = -706.9916f;
+		viewscale = 0.1750614f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -312,9 +328,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -70.12892f;
-		viewpositiony = -2941.614f;
-		viewscale = 2.413383f;
+		viewpositionx = 2938.248f;
+		viewpositiony = -213.1952f;
+		viewscale = 0.1035872f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -369,7 +385,6 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 108;
 				activetab = true;
 			}
 		}

@@ -6,6 +6,7 @@ map MAP01 "Devil's Pillar"
    sky1 = SKY2
    sky2 = SKY3
    Music = "WINNOWR"
+   lightning
 }
 
 map MAP02 "Dragon Inn Ruins"
@@ -18,7 +19,7 @@ map MAP02 "Dragon Inn Ruins"
    Music = "VOIDR"
 }
 
-map MAP03 "Griffin River Dam"
+map MAP03 "Serpent River Dam"
 {
    warptrans = 2
    next = MAP04
@@ -26,6 +27,16 @@ map MAP03 "Griffin River Dam"
    sky1 = SKY2
    sky2 = SKY3
    Music = "VOIDR"
+}
+
+map MAP04 "Dark Forest"
+{
+   warptrans = 4
+   next = MAP05
+   cluster = 1
+   sky1 = SKY4
+   sky2 = SKY4
+   music = "WUTZITR"
 }
 
 DoomEdNums

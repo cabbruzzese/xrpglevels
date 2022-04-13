@@ -6,6 +6,7 @@ next 2
 cluster 1
 sky1 SKY2 0
 sky2 SKY3 0
+lightning
 cdtrack 13
 
 map 2 "Dragon Inn Ruins"
@@ -23,6 +24,14 @@ cluster 1
 sky1 SKY4 0
 sky2 SKY4 0
 cdtrack 3
+
+map 4 "Dark Forest"
+warptrans 4
+next 5
+cluster 1
+sky1 SKY4 0
+sky2 SKY4 0
+cdtrack 15
 
 DoomEdNums
 {
