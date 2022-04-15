@@ -1,4 +1,4 @@
-map MAP01 "Devil's Pillar"
+map MAP01 "Pillars of Hell"
 {
    warptrans = 1
    next = MAP02
@@ -39,6 +39,26 @@ map MAP04 "Dark Forest"
    music = "WUTZITR"
 }
 
+map MAP05 "Ophidian Fortress"
+{
+   warptrans = 4
+   next = MAP06
+   cluster = 1
+   sky1 = SKY4
+   sky2 = SKY4
+   music = "FALCONR"
+}
+
+map MAP06 "Mythic Arcanum"
+{
+   warptrans = 4
+   next = MAP07
+   cluster = 1
+   sky1 = SKY4
+   sky2 = SKY4
+   music = "FALCONR"
+}
+
 DoomEdNums
 {
  11001 = DevilPillar
@@ -50,4 +70,5 @@ DoomEdNums
  11007 = SnakeStalker
  11008 = LargeXmasTree
  11009 = FlourSack
+ 11010 = Medusa
 }
