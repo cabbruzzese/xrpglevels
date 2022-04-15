@@ -35,7 +35,7 @@ maps
 			}
 		}
 		overrideceiltexture = false;
-		viewpositionx = 1531.833f;
+		viewpositionx = -806.3447f;
 		defaulttoptexture = "MONK01";
 		overrideceilheight = false;
 		useresourcesinreadonlymode = false;
@@ -58,13 +58,13 @@ maps
 		overridebottomtexture = false;
 		defaultbottomtexture = "MONK01";
 		defaultfloortexture = "F_010";
-		viewpositiony = 764.7571f;
+		viewpositiony = -15.75929f;
 		defaultwalltexture = "MONK01";
 		overridetoptexture = false;
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 0.1401004f;
+		viewscale = 0.5201828f;
 		
 		reloadresourceprecommand
 		{
