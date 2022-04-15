@@ -53,7 +53,7 @@ map MAP06 "Mythic Arcanum"
 {
    warptrans = 4
    next = MAP07
-   cluster = 1
+   cluster = 2
    sky1 = SKY4
    sky2 = SKY4
    music = "FALCONR"
@@ -71,4 +71,20 @@ DoomEdNums
  11008 = LargeXmasTree
  11009 = FlourSack
  11010 = Medusa
+}
+
+cluster 1
+{
+   hub
+   pic = "INTERPIC"
+   music = "FANTAR"
+   exittext = "CLUS1MSG"
+   exittextislump
+}
+cluster 2
+{
+   hub
+   pic = "INTERPIC"
+   music = "FANTAR"
+   exittext = "Go get 'em!"
 }
