@@ -39,7 +39,7 @@ map MAP04 "Dark Forest"
    music = "WUTZITR"
 }
 
-map MAP05 "Ophidian Fortress"
+map MAP05 "Cecropolis"
 {
    warptrans = 4
    next = MAP06

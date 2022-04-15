@@ -1,16 +1,19 @@
 class RegenActor : Actor
 {
 	int regenHeal;
+	int regenMax;
 	int regenCounter;
 	int regenTimeout;
 	
 	property RegenHeal : regenHeal;
+	property RegenMax : regenMax;
 	property RegenTimeout : regenTimeout;
 	
 	Default
 	{
 		RegenActor.RegenHeal 1;
 		RegenActor.RegenTimeout 15;
+		RegenActor.RegenMax 10;
 	}
 	
 	override void Tick()
@@ -24,7 +27,8 @@ class RegenActor : Actor
 			if (regenCounter > RegenTimeout)
 			{
 				regenCounter = 0;
-				GiveBody(RegenHeal);
+				if (Health < RegenMax)
+					GiveBody(RegenHeal);
 			}
 		}
 	}
@@ -49,7 +53,8 @@ class SnakeStalker : RegenActor
 		+AVOIDMELEE
 		+FLOORCLIP
 		
-		RegenActor.RegenHeal 10;
+		RegenActor.RegenHeal 5;
+		RegenActor.RegenMax 150; //can heal back up to half health
 	}
 	States
 	{
