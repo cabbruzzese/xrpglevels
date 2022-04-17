@@ -107,3 +107,73 @@ class FlourSack : Actor
 		Stop;
 	}
 }
+
+class IonicColumn : Actor //Like raa-a-ain on your wedding day
+{
+	Default
+	{
+		Radius 32;
+		Height 128;
+		+SOLID
+	}
+	States
+	{
+	Spawn:
+		ICOL A -1;
+		Stop;
+	}
+}
+
+class GreatMinotaurStatue : Actor
+{
+	Default
+	{
+		Radius 32;
+		Height 128;
+		+SOLID
+	}
+	States
+	{
+	Spawn:
+		ICOL A -1;
+		Stop;
+	}
+}
+
+class GreatFireBull : ZFireBull
+{
+	Default
+	{
+		Radius 32;
+		Height 160;
+		Scale 2.0;
+	}
+
+	States
+	{
+	Active:
+		FBUL J 8 Bright A_StartSound("Ignite");
+		FBUL IKLMNOPQ 8 Bright;
+		FBUL R 8 A_NoBlocking;
+		FBUL S 8 A_SpawnBoss;
+		FBUL S -1;
+		Stop;
+	Spawn:
+		FBUL ABCDEFG 4 Bright;
+		Loop;
+	Inactive:
+		FBUL JI 4 Bright;
+		FBUL H -1;
+		Stop;
+	}
+
+	action void A_SpawnBoss ()
+	{
+		A_NoBlocking();
+		Actor mo = Spawn("XRpgMinotaurBoss", invoker.Pos, ALLOW_REPLACE);
+		if (mo)
+		{
+			mo.Angle = invoker.Angle; 
+		}
+	}
+}

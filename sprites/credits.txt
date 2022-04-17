@@ -17,3 +17,8 @@ SACKA0
 Thunder
 https://sketchfab.com/3d-models/dirty-sack-4f54fd1611cd4a8ca9983f1cf746af43
 License: CC Attribution-ShareAlike
+
+ICOLA0
+Kabourek Roman
+https://sketchfab.com/3d-models/ionic-column-c9bfad9125de4a06956beffc5e071531
+License: CC Attribution-NonCommercial
