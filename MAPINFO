@@ -64,4 +64,8 @@ DoomEdNums
  11011 = IonicColumn
  11012 = GreatFireBull
  11013 = XRpgMinotaurBoss
+ 11014 = XRpgMinotaurMinion
+ 11015 = XRpgSatyr
+ 11016 = MinotaurPriest
+ 11017 = MudGolem
 }
