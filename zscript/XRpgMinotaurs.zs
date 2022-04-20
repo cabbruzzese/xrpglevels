@@ -10,6 +10,7 @@ class XRpgMinotaurBoss : Minotaur
         Damage 12;
         MeleeRange 60;
         DropItem "None";
+        +NOICEDEATH
     }
 
     States
@@ -168,29 +169,29 @@ class MinotaurPriest : MageMonster
         HLGD E 8 A_MPriestDecide;
         HLGD F 0 A_Jump(85,4);
         HLGD F 0 A_Jump(128,2);
-        HLGD F 4 Bright A_CustomMissile("HellGuardBall", 28, -8, -4, 1);
+        HLGD F 4 Bright A_SpawnProjectile("MPriestBall", 28, -8, -4, 1);
         Goto Missile+6;
-        HLGD F 4 Bright A_CustomMissile("HellGuardBall", 28, -8, 4, 1);
+        HLGD F 4 Bright A_SpawnProjectile("MPriestBall", 28, -8, 4, 1);
         Goto Missile+6;
-        HLGD F 4 Bright A_CustomMissile("HellGuardBall", 28, -8, 0, 1);
+        HLGD F 4 Bright A_SpawnProjectile("MPriestBall", 28, -8, 0, 1);
         Goto Missile+6;
         HLGD E 4 A_FaceTarget;
         HLGD F 0 A_Jump(85,4);
         HLGD F 0 A_Jump(128,2);
-        HLGD F 4 Bright A_CustomMissile("HellGuardBall", 28, -8, -4, 1);
+        HLGD F 4 Bright A_SpawnProjectile("MPriestBall", 28, -8, -4, 1);
         Goto Missile+12;
-        HLGD F 4 Bright A_CustomMissile("HellGuardBall", 28, -8, 4, 1);
+        HLGD F 4 Bright A_SpawnProjectile("MPriestBall", 28, -8, 4, 1);
         Goto Missile+12;
-        HLGD F 4 Bright A_CustomMissile("HellGuardBall", 28, -8, 0, 1);
+        HLGD F 4 Bright A_SpawnProjectile("MPriestBall", 28, -8, 0, 1);
         Goto Missile+12;
         HLGD E 4 A_FaceTarget;
         HLGD F 0 A_Jump(85,4);
         HLGD F 0 A_Jump(128,2);
-        HLGD F 4 Bright A_CustomMissile("HellGuardBall", 28, -8, -4, 1);
+        HLGD F 4 Bright A_SpawnProjectile("MPriestBall", 28, -8, -4, 1);
         Goto See;
-        HLGD F 4 Bright A_CustomMissile("HellGuardBall", 28, -8, 4, 1);
+        HLGD F 4 Bright A_SpawnProjectile("MPriestBall", 28, -8, 4, 1);
         Goto See;
-        HLGD F 4 Bright A_CustomMissile("HellGuardBall", 28, -8, 0, 1);
+        HLGD F 4 Bright A_SpawnProjectile("MPriestBall", 28, -8, 0, 1);
         Goto See;
     LightningAttack:
         HLGD EF 8 Bright;
@@ -235,7 +236,7 @@ class MinotaurPriest : MageMonster
     }
 }
 
-class HellGuardBall : Actor
+class MPriestBall : Actor
 {
     Default
     {

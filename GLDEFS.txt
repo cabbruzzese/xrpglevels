@@ -1,0 +1,32 @@
+PointLight BURNSHROOM1
+{
+	Color 0.7 0.6 0.1
+	Size 42
+}
+
+PointLight BURNSHROOM2
+{
+	Color 0.7 0.6 0.1
+    Size 50
+}
+
+PointLight BURNSHROOM3
+{
+	Color 0.7 0.6 0.1
+    Size 58
+}
+
+PointLight BURNSHROOM4
+{
+	Color 0.7 0.6 0.1
+    Size 46
+}
+
+Object SentientMushroom
+{
+Frame MSHRL { Light BURNSHROOM1 }
+Frame MSHRM { Light BURNSHROOM2 }
+Frame MSHRN { Light BURNSHROOM3 }
+Frame MSHRO { Light BURNSHROOM4 }
+Frame MSHRP { Light BURNSHROOM1 }
+}

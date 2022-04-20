@@ -1,0 +1,7 @@
+Mushroom/Idle		MUSHIDLE
+Mushroom/Attack		MUSHATCK
+$random Mushroom/Die { MDIE1 MDIE2 MDIE3 }
+MDIE1	MUSHDIE1
+MDIE2	MUSHDIE2
+MDIE3	MUSHDIE3
+Mushroom/Fire		MUSHBURN

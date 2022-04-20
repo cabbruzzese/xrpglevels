@@ -16,6 +16,7 @@ Class XRpgSatyr : Actor
     HitObituary "%o was mauled by a satyr.";
     MONSTER;
     +FLOORCLIP
+    +AVOIDMELEE
   }
 
   States
