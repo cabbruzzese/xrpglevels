@@ -49,6 +49,24 @@ sky1 SKY4 0
 sky2 SKY4 0
 cdtrack 9
 
+map 7 "Satyr's Grove"
+warptrans 7
+next 8
+cluster 2
+sky1 SKYWALL 0
+sky2 SKY1 80
+doublesky
+cdtrack 8
+
+map 8 "Kryos Caverns"
+warptrans 7
+next 9
+cluster 2
+sky1 SKYWALL 0
+sky2 SKY1 80
+doublesky
+cdtrack 9
+
 DoomEdNums
 {
  11001 = DevilPillar

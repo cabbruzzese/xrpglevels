@@ -59,6 +59,28 @@ map MAP06 "Mythic Arcanum"
    music = "FALCONR"
 }
 
+map MAP07 "Satyr's Grove"
+{
+   warptrans = 7
+   next = MAP08
+   cluster = 2
+   sky1 = SKYWALL
+   sky2 = SKY1
+   doublesky
+   music = "CHARTR"
+}
+
+map MAP08 "Kryos Caverns"
+{
+   warptrans = 7
+   next = MAP09
+   cluster = 2
+   sky1 = SKYWALL
+   sky2 = SKY1
+   doublesky
+   music = "FALCONR"
+}
+
 DoomEdNums
 {
    11001 = DevilPillar

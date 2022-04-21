@@ -103,7 +103,7 @@ class SatyrMissileSeeker : Actor
 
 		DamageType "Poison";
 
-        Health 100;
+    Health 100;
 	}
 	States
 	{
@@ -119,6 +119,13 @@ class SatyrMissileSeeker : Actor
 	
     action void A_SatyrMissileSeek()
     {
+        if (tracer && tracer.Health < 1)
+        {
+          if (tracer.target)
+            tracer = tracer.target;
+          else
+            tracer = null;
+        }
         A_SeekerMissile(50, 50, SMF_PRECISE);
 
         health--;
@@ -136,7 +143,7 @@ class SatyrMissileSeeker : Actor
         
         if (target.bIsMonster)
             return 0;
-
+ 
 		// Satyr Spell does poison damage
 		if (target.player)
 		{
@@ -145,6 +152,13 @@ class SatyrMissileSeeker : Actor
 		}
 		return damage;
 	}
+
+  override void Tick ()
+  {
+    Super.Tick();
+
+    
+  }
 }
 
 class SatyrFX : Actor
@@ -197,13 +211,13 @@ class SatyrFX : Actor
 	}
 
     override int DoSpecialDamage (Actor target, int damage, Name damagetype)
-	{
-        if (!target)
-            return 0;
-        
-        if (!target.bDONTTHRUST)
-            target.Thrust(30, angle);
+    {
+          if (!target)
+              return 0;
+          
+          if (!target.bDONTTHRUST)
+              target.Thrust(30, angle);
 
-		return damage;
-	}
+      return damage;
+    }
 }

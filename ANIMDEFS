@@ -21,3 +21,10 @@ Pic SAW2 Tics 4
 Texture SAW1R
 Pic SAW1R Tics 4
 Pic SAW2R Tics 4
+
+
+flat CWATER
+pic CWATER1 rand 5 12
+pic CWATER2 rand 5 12
+pic CWATER3 rand 5 12
+pic CWATER4 rand 5 12

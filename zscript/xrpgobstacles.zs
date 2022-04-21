@@ -173,7 +173,13 @@ class GreatFireBull : ZFireBull
 		Actor mo = Spawn("XRpgMinotaurBoss", invoker.Pos, ALLOW_REPLACE);
 		if (mo)
 		{
-			mo.Angle = invoker.Angle; 
+			mo.Angle = invoker.Angle;
+
+			if (invoker.Args[0] != 0)
+			{
+				mo.Special = 80;
+				mo.Args[0] = invoker.Args[0];
+			}
 		}
 	}
 }

@@ -534,9 +534,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -2786.623f;
-		viewpositiony = -28.83721f;
-		viewscale = 0.6499979f;
+		viewpositionx = -819.3572f;
+		viewpositiony = 40.38599f;
+		viewscale = 0.07968255f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -591,7 +591,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 137;
+				caretposition = 84;
 				activetab = true;
 			}
 		}
@@ -629,9 +629,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -2094.705f;
-		viewpositiony = -3089.646f;
-		viewscale = 1.428039f;
+		viewpositionx = -943.0742f;
+		viewpositiony = -1335.091f;
+		viewscale = 0.1346633f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -686,9 +686,89 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 182;
+				caretposition = 205;
 				activetab = true;
 			}
+		}
+	}
+	
+	MAP08
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Games\\packs\\xrpglevels";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "F_033";
+		defaultceiltexture = "F_033";
+		defaulttoptexture = "ICE01";
+		defaultwalltexture = "ICE01";
+		defaultbottomtexture = "ICE01";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 1747.832f;
+		viewpositiony = -1186.831f;
+		viewscale = 0.2958571f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 8;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 	}
 }

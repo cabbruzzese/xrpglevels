@@ -1,0 +1,12 @@
+terrain ColdWater
+{
+	splash			Water
+	footclip		10
+	liquid
+	damageamount	5
+	damagetype		ice
+	damagetimemask	31
+	damageonland
+}
+
+floor CWATER ColdWater

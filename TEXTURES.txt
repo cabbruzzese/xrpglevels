@@ -1,0 +1,34 @@
+texture CWATER, 64, 64
+{
+   XScale 1.0
+   YScale 1.0
+   Patch X_005, 0, 0
+}
+
+texture CWATER1, 64, 64
+{
+   XScale 1.0
+   YScale 1.0
+   Patch X_005, 0, 0
+}
+
+texture CWATER2, 64, 64
+{
+   XScale 1.0
+   YScale 1.0
+   Patch X_006, 0, 0
+}
+
+texture CWATER3, 64, 64
+{
+   XScale 1.0
+   YScale 1.0
+   Patch X_007, 0, 0
+}
+
+texture CWATER4, 64, 64
+{
+   XScale 1.0
+   YScale 1.0
+   Patch X_008, 0, 0
+}
