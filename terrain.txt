@@ -1,12 +1,27 @@
+splash ColdWaterSplash
+{
+   smallclass      ColdWaterSplashBase
+   smallclip      12
+   smallsound      world/drip
+
+   baseclass      ColdWaterSplashBase
+   chunkclass      ColdWaterSplash
+   chunkxvelshift   8
+   chunkyvelshift   8
+   chunkzvelshift   8
+   chunkbasezvel   2
+   sound         FreezeDeath
+   noalert
+}
+
 terrain ColdWater
 {
-	splash			Water
-	footclip		10
+	splash			ColdWaterSplash
+	footclip		10 
 	liquid
 	damageamount	5
 	damagetype		ice
-	damagetimemask	31
-	damageonland
+	damagetimemask	23
 }
 
 floor CWATER ColdWater
