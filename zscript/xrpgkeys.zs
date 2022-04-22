@@ -12,3 +12,18 @@ class VillageKey : HexenKey
 		Stop;
 	}
 }
+
+class SigilKey : HexenKey
+{
+	Default
+	{
+		Inventory.Icon "KEYSLOTD";
+		Inventory.PickupMessage "$TXT_KEY_SIGIL";
+	}
+	States
+	{
+	Spawn:
+		KEYD A -1;
+		Stop;
+	}
+}

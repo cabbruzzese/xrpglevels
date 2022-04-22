@@ -534,9 +534,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -819.3572f;
-		viewpositiony = 40.38599f;
-		viewscale = 0.07968255f;
+		viewpositionx = 1064.735f;
+		viewpositiony = 2577.598f;
+		viewscale = 0.2275811f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -686,7 +686,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 205;
+				caretposition = 299;
 				activetab = true;
 			}
 		}
@@ -724,9 +724,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 1747.832f;
-		viewpositiony = -1186.831f;
-		viewscale = 0.2958571f;
+		viewpositionx = 2222.612f;
+		viewpositiony = -133.6243f;
+		viewscale = 0.2275811f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -737,7 +737,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8;
+			gridsize = 16;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -769,6 +769,22 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 2379;
+				firstvisibleline = 45;
+				activetab = true;
+			}
 		}
 	}
 }

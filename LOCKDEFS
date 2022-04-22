@@ -3,5 +3,13 @@ Lock 12 Hexen
 	VillageKey
 	Message "You need the Village Key"
 	RemoteMessage "You need the Village Key"
-	Mapcolor 255 0 0
+	Mapcolor 180 0 0
+}
+
+Lock 13 Hexen
+{
+	SigilKey
+	Message "You need the Sigil Key"
+	RemoteMessage "You need the Sigil Key"
+	Mapcolor 200 200 200
 }

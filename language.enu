@@ -3,6 +3,7 @@
 FN_SNAKESERPENT = "Snake Stalker";
 
 TXT_KEY_VILLAGE = "Village Key";
+TXT_KEY_SIGIL = "Sigil Key";
 
 OB_ACIDTRAP = "%o was melted by an acid trap.";
 
