@@ -305,8 +305,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 569;
-				firstvisibleline = 4;
+				caretposition = 246;
 				activetab = true;
 			}
 		}
@@ -534,9 +533,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 1064.735f;
-		viewpositiony = 2577.598f;
-		viewscale = 0.2275811f;
+		viewpositionx = -1414.876f;
+		viewpositiony = 2241.351f;
+		viewscale = 1.856448f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -724,9 +723,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 2222.612f;
-		viewpositiony = -133.6243f;
-		viewscale = 0.2275811f;
+		viewpositionx = 2173.053f;
+		viewpositiony = -1006.478f;
+		viewscale = 0.07968214f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -781,10 +780,90 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 2379;
-				firstvisibleline = 45;
+				caretposition = 3549;
+				firstvisibleline = 78;
 				activetab = true;
 			}
+		}
+	}
+	
+	MAP09
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Games\\packs\\xrpglevels";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "F_003";
+		defaultceiltexture = "CAVE05";
+		defaulttoptexture = "CAVE05";
+		defaultwalltexture = "CAVE05";
+		defaultbottomtexture = "CAVE05";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = -1991.409f;
+		viewpositiony = -1403.565f;
+		viewscale = 4.078651f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 8;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 	}
 }
