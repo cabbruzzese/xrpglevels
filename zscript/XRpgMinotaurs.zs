@@ -37,6 +37,8 @@ class XRpgMinotaurMinion : Minotaur
         Speed 18;
         Damage 7;
         -BOSS;
+        -DONTMORPH;
+        -NORADIUSDMG;
         DropItem "None";
         MaxTargetRange 8*64;
         MeleeRange 56;

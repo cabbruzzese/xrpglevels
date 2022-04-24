@@ -103,6 +103,7 @@ DoomEdNums
    11018 = SentientMushroom
    11019 = SigilKey
    11020 = IceGolem
+   11021 = LavaGolem
 }
 
 cluster 1
