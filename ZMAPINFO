@@ -68,6 +68,7 @@ map MAP07 "Satyr's Grove"
    sky2 = SKY1, 0.1
    doublesky
    music = "CHARTR"
+   NoInfighting
 }
 
 map MAP08 "Kryos Caverns"
@@ -79,6 +80,7 @@ map MAP08 "Kryos Caverns"
    sky2 = SKY2A, 0.1
    doublesky
    music = "SWAMPR"
+   NoInfighting
 }
 
 map MAP09 "Caldera of the Minotaur"
@@ -90,6 +92,7 @@ map MAP09 "Caldera of the Minotaur"
    sky2 = SKY4, 0.25
    doublesky
    music = "DEEPR"
+   NoInfighting
 }
 
 map MAP10 "Labyrinth"
@@ -101,6 +104,7 @@ map MAP10 "Labyrinth"
    sky2 = SKY4, 0.25
    doublesky
    music = "fubasr"
+   NoInfighting
 }
 
 DoomEdNums
