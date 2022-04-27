@@ -54,8 +54,8 @@ map MAP06 "Mythic Arcanum"
    warptrans = 4
    next = MAP07
    cluster = 2
-   sky1 = SKY4
-   sky2 = SKY4
+   sky1 = SKY1
+   sky2 = SKY1
    music = "FALCONR"
 }
 
@@ -65,7 +65,7 @@ map MAP07 "Satyr's Grove"
    next = MAP08
    cluster = 2
    sky1 = SKYWALL
-   sky2 = SKY1
+   sky2 = SKY1, 0.1
    doublesky
    music = "CHARTR"
 }
@@ -75,10 +75,32 @@ map MAP08 "Kryos Caverns"
    warptrans = 7
    next = MAP09
    cluster = 2
-   sky1 = SKYWALL
-   sky2 = SKY1
+   sky1 = SKYWALL2
+   sky2 = SKY2A, 0.1
    doublesky
-   music = "FALCONR"
+   music = "SWAMPR"
+}
+
+map MAP09 "Caldera of the Minotaur"
+{
+   warptrans = 7
+   next = MAP10
+   cluster = 2
+   sky1 = SKYWALL
+   sky2 = SKY4, 0.25
+   doublesky
+   music = "DEEPR"
+}
+
+map MAP10 "Labyrinth"
+{
+   warptrans = 7
+   next = MAP11
+   cluster = 2
+   sky1 = SKYWALL
+   sky2 = SKY4, 0.25
+   doublesky
+   music = "fubasr"
 }
 
 DoomEdNums
@@ -119,5 +141,5 @@ cluster 2
    hub
    pic = "INTERPIC"
    music = "FANTAR"
-   exittext = "Go get 'em!"
+   exittext = "CLUS2MSG"
 }

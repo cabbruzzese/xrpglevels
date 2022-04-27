@@ -45,9 +45,9 @@ map 6 "Mythic Arcanum"
 warptrans 5
 next 7
 cluster 2
-sky1 SKY4 0
-sky2 SKY4 0
-cdtrack 9
+sky1 SKY1 0
+sky2 SKY1 0
+cdtrack 21
 
 map 7 "Satyr's Grove"
 warptrans 7
@@ -62,10 +62,28 @@ map 8 "Kryos Caverns"
 warptrans 7
 next 9
 cluster 2
-sky1 SKYWALL 0
-sky2 SKY1 80
+sky1 SKYWALL2 0
+sky2 SKY2A 80
 doublesky
-cdtrack 9
+cdtrack 14
+
+map 9 "Minotaur Crater"
+warptrans 7
+next 10
+cluster 2
+sky1 SKYWALL 0
+sky2 SKY3 80
+doublesky
+cdtrack 20
+
+map 10 "Labyrinth"
+warptrans 7
+next 11
+cluster 2
+sky1 SKYWALL 0
+sky2 SKY3 80
+doublesky
+cdtrack 6
 
 DoomEdNums
 {

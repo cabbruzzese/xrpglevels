@@ -9,7 +9,7 @@ class XRpgMinotaurBoss : Minotaur
         Speed 28;
         Damage 12;
         MeleeRange 60;
-        DropItem "None";
+        DropItem "ArtiDarkServant";
         +NOICEDEATH
     }
 
@@ -138,7 +138,7 @@ class XRpgMinotaurMinion : Minotaur
 	}
 }
 
-class MinotaurPriest : MageMonster
+class MinotaurPriest : MageMonster replaces HellGuard
 {
     Default
     {

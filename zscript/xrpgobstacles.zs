@@ -112,7 +112,7 @@ class IonicColumn : Actor //Like raa-a-ain on your wedding day
 {
 	Default
 	{
-		Radius 32;
+		Radius 20;
 		Height 128;
 		+SOLID
 	}

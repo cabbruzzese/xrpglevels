@@ -533,9 +533,105 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 1786.467f;
-		viewpositiony = 992.2115f;
-		viewscale = 0.2958553f;
+		viewpositionx = 126.8703f;
+		viewpositiony = -1152.57f;
+		viewscale = 1.856439f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 16;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 2208;
+				firstvisibleline = 79;
+				activetab = true;
+			}
+		}
+	}
+	
+	MAP07
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Games\\packs\\xrpglevels";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "F_007";
+		defaultceiltexture = "F_SKY";
+		defaulttoptexture = "WASTE01";
+		defaultwalltexture = "WASTE01";
+		defaultbottomtexture = "WASTE01";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 267.854f;
+		viewpositiony = -1434.899f;
+		viewscale = 0.1750619f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -590,102 +686,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 84;
-				activetab = true;
-			}
-		}
-	}
-	
-	MAP07
-	{
-		
-		resources
-		{
-			
-			resource0
-			{
-				type = 1;
-				location = "C:\\Games\\packs\\xrpglevels";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-			}
-		}
-		defaultfloortexture = "F_007";
-		defaultceiltexture = "F_SKY";
-		defaulttoptexture = "WASTE01";
-		defaultwalltexture = "WASTE01";
-		defaultbottomtexture = "WASTE01";
-		custombrightness = 196;
-		customfloorheight = 0;
-		customceilheight = 128;
-		overridefloortexture = false;
-		overrideceiltexture = false;
-		overridetoptexture = false;
-		overridemiddletexture = false;
-		overridebottomtexture = false;
-		overridefloorheight = false;
-		overrideceilheight = false;
-		overridebrightness = false;
-		uselongtexturenames = false;
-		viewpositionx = -1791.432f;
-		viewpositiony = -2820.596f;
-		viewscale = 0.06129418f;
-		scriptcompiler = "zdoom_acs.cfg";
-		
-		grid
-		{
-			background = "";
-			backsource = 0;
-			backoffsetx = 0;
-			backoffsety = 0;
-			backscalex = 100;
-			backscaley = 100;
-			gridsize = 16;
-			gridrotate = 0;
-			gridoriginx = 0;
-			gridoriginy = 0;
-		}
-		
-		reloadresourceprecommand
-		{
-			autocloseonsuccess = true;
-			exitcodeiserror = true;
-			stderriserror = true;
-		}
-		
-		reloadresourcepostcommand
-		{
-			autocloseonsuccess = true;
-			exitcodeiserror = true;
-			stderriserror = true;
-		}
-		
-		testprecommand
-		{
-			autocloseonsuccess = true;
-			exitcodeiserror = true;
-			stderriserror = true;
-		}
-		
-		testpostcommand
-		{
-			autocloseonsuccess = true;
-			exitcodeiserror = true;
-			stderriserror = true;
-		}
-		
-		scriptdocuments
-		{
-			
-			document0
-			{
-				filename = "SCRIPTS";
-				hash = 3469170009;
-				resource;
-				tabtype = 0;
-				scripttype = 1;
-				caretposition = 299;
+				caretposition = 1333;
+				firstvisibleline = 9;
 				activetab = true;
 			}
 		}
@@ -723,9 +725,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 3330.883f;
-		viewpositiony = -3278.085f;
-		viewscale = 0.2958542f;
+		viewpositionx = 2470.734f;
+		viewpositiony = -662.6488f;
+		viewscale = 3.137376f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -736,7 +738,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 16;
+			gridsize = 8;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -780,8 +782,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 3549;
-				firstvisibleline = 78;
+				caretposition = 4523;
+				firstvisibleline = 120;
 				activetab = true;
 			}
 		}
@@ -819,9 +821,105 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -16.98998f;
-		viewpositiony = -1680.564f;
-		viewscale = 0.2275799f;
+		viewpositionx = -1882.808f;
+		viewpositiony = -1765.295f;
+		viewscale = 0.1750613f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 8;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 4061;
+				firstvisibleline = 92;
+				activetab = true;
+			}
+		}
+	}
+	
+	MAP10
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Games\\packs\\xrpglevels";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "F_084";
+		defaultceiltexture = "F_071";
+		defaulttoptexture = "FIRE06";
+		defaultwalltexture = "FIRE06";
+		defaultbottomtexture = "FIRE06";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 2119.823f;
+		viewpositiony = -350.6781f;
+		viewscale = 1.098497f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -876,9 +974,105 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 3132;
+				caretposition = 1884;
+				firstvisibleline = 70;
 				activetab = true;
 			}
+		}
+	}
+	
+	MAP11
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Games\\packs\\xrpglevels";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "F_010";
+		defaultceiltexture = "F_011";
+		defaulttoptexture = "FOREST01";
+		defaultwalltexture = "FOREST01";
+		defaultbottomtexture = "FOREST01";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 238.0457f;
+		viewpositiony = -40.12884f;
+		viewscale = 0.65f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 32;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 39;
+				activetab = true;
+			}
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 	}
 }

@@ -1,4 +1,4 @@
-Class XRpgSatyr : Actor
+Class XRpgSatyr : Actor replaces Satyr
 {
   Default
   {

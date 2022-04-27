@@ -32,3 +32,11 @@ texture CWATER4, 64, 64
    YScale 1.0
    Patch X_008, 0, 0
 }
+
+texture GrayDirt, 64, 64
+{
+   Patch F_002, 0, 0
+   {
+      translation Desaturate, 32
+   }
+}
