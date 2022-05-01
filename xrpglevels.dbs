@@ -996,11 +996,11 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaultfloortexture = "F_010";
-		defaultceiltexture = "F_011";
-		defaulttoptexture = "FOREST01";
-		defaultwalltexture = "FOREST01";
-		defaultbottomtexture = "FOREST01";
+		defaultfloortexture = "F_059";
+		defaultceiltexture = "F_SKY";
+		defaulttoptexture = "GATE01R";
+		defaultwalltexture = "GATE01R";
+		defaultbottomtexture = "GATE01R";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -1013,9 +1013,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 238.0457f;
-		viewpositiony = -40.12884f;
-		viewscale = 0.65f;
+		viewpositionx = -1572.207f;
+		viewpositiony = -3793.647f;
+		viewscale = 1.098494f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -1026,25 +1026,10 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32;
+			gridsize = 8;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
-		}
-		
-		scriptdocuments
-		{
-			
-			document0
-			{
-				filename = "SCRIPTS";
-				hash = 3469170009;
-				resource;
-				tabtype = 0;
-				scripttype = 1;
-				caretposition = 39;
-				activetab = true;
-			}
 		}
 		
 		reloadresourceprecommand
@@ -1073,6 +1058,21 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 62;
+				activetab = true;
+			}
 		}
 	}
 }

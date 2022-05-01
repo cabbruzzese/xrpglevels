@@ -40,3 +40,11 @@ texture GrayDirt, 64, 64
       translation Desaturate, 32
    }
 }
+
+texture Gate01R, 128, 72
+{
+   Patch GATE01, 0, 0
+   {
+      rotate 180
+   }
+}

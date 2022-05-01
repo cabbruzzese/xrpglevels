@@ -85,6 +85,16 @@ sky2 SKY3 80
 doublesky
 cdtrack 6
 
+map 11 "Purgatory"
+warptrans 7
+next 12
+cluster 3
+sky1 SKYWALL 2
+sky2 SKYFOG2 80
+doublesky
+fadetable fogmap
+cdtrack 5
+
 DoomEdNums
 {
  11001 = DevilPillar

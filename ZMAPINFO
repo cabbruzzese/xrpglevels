@@ -107,6 +107,18 @@ map MAP10 "Labyrinth"
    NoInfighting
 }
 
+map MAP11 "Purgatory"
+{
+   warptrans = 7
+   next = MAP12
+   cluster = 3
+   sky1 = SKYWALL2
+   sky2 = SKYFOG2, 0.25
+   doublesky
+   //Fade = "Gray"
+   music = "grover"
+}
+
 DoomEdNums
 {
    11001 = DevilPillar
@@ -146,4 +158,13 @@ cluster 2
    pic = "INTERPIC"
    music = "FANTAR"
    exittext = "CLUS2MSG"
+   exittextislump
+}
+
+cluster 3
+{
+   hub
+   pic = "INTERPIC"
+   music = "FANTAR"
+   exittext = "stuff"
 }
