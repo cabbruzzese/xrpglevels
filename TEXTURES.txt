@@ -48,3 +48,11 @@ texture Gate01R, 128, 72
       rotate 180
    }
 }
+
+texture GRoman, 128, 128
+{
+   Patch TOMB06, 0, 0
+   {
+      translation Desaturate, 32
+   }
+}

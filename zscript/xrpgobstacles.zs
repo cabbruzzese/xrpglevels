@@ -183,3 +183,79 @@ class GreatFireBull : ZFireBull
 		}
 	}
 }
+
+class TombstonePride : Actor
+{
+	Default
+	{
+		Radius 10;
+		Height 52;
+		+SOLID
+	}
+	States
+	{
+	Spawn:
+		TMSP A -1;
+		Stop;
+	}
+}
+
+class TombstoneGreed : TombstonePride
+{
+	States
+	{
+	Spawn:
+		TMSP B -1;
+		Stop;
+	}
+}
+
+class TombstoneDesire : TombstonePride
+{
+	States
+	{
+	Spawn:
+		TMSP C -1;
+		Stop;
+	}
+}
+
+class TombstoneEnvy : TombstonePride
+{
+	States
+	{
+	Spawn:
+		TMSP D -1;
+		Stop;
+	}
+}
+
+class TombstoneGluttony : TombstonePride
+{
+	States
+	{
+	Spawn:
+		TMSP E -1;
+		Stop;
+	}
+}
+
+class TombstoneWrath : TombstonePride
+{
+	States
+	{
+	Spawn:
+		TMSP F -1;
+		Stop;
+	}
+}
+
+class TombstoneSloth : TombstonePride
+{
+	States
+	{
+	Spawn:
+		TMSP G -1;
+		Stop;
+	}
+}

@@ -119,6 +119,83 @@ map MAP11 "Purgatory"
    music = "grover"
 }
 
+map MAP12 "Pride"
+{
+   warptrans = 7
+   next = MAP13
+   cluster = 3
+   sky1 = SKYWALL2
+   sky2 = SKYFOG2, 0.25
+   doublesky
+   music = "grover"
+}
+
+map MAP13 "Greed"
+{
+   warptrans = 7
+   next = MAP14
+   cluster = 3
+   sky1 = SKYWALL2
+   sky2 = SKYFOG2, 0.25
+   doublesky
+   music = "grover"
+}
+
+map MAP14 "Desire"
+{
+   warptrans = 7
+   next = MAP15
+   cluster = 3
+   sky1 = SKYWALL2
+   sky2 = SKYFOG2, 0.25
+   doublesky
+   music = "grover"
+}
+
+map MAP15 "Envy"
+{
+   warptrans = 7
+   next = MAP16
+   cluster = 3
+   sky1 = SKYWALL2
+   sky2 = SKYFOG2, 0.25
+   doublesky
+   music = "grover"
+}
+
+map MAP16 "Gluttony"
+{
+   warptrans = 7
+   next = MAP17
+   cluster = 3
+   sky1 = SKYWALL2
+   sky2 = SKYFOG2, 0.25
+   doublesky
+   music = "grover"
+}
+
+map MAP17 "Wrath"
+{
+   warptrans = 7
+   next = MAP18
+   cluster = 3
+   sky1 = SKYWALL2
+   sky2 = SKYFOG2, 0.25
+   doublesky
+   music = "grover"
+}
+
+map MAP18 "Sloth"
+{
+   warptrans = 7
+   next = MAP19
+   cluster = 3
+   sky1 = SKYWALL2
+   sky2 = SKYFOG2, 0.25
+   doublesky
+   music = "grover"
+}
+
 DoomEdNums
 {
    11001 = DevilPillar
@@ -142,6 +219,15 @@ DoomEdNums
    11019 = SigilKey
    11020 = IceGolem
    11021 = LavaGolem
+   11022 = TombstonePride
+   11023 = TombstoneGreed
+   11024 = TombstoneDesire
+   11025 = TombstoneEnvy
+   11026 = TombstoneGluttony
+   11027 = TombstoneWrath
+   11028 = TombstoneSloth
+   11029 = PrideEttin
+   11030 = PrideDaemon
 }
 
 cluster 1
