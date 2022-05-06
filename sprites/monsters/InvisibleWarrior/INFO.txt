@@ -1,0 +1,7 @@
+Name: Invisible Warrior
+Difficulty: Medium
+Summon: invwar
+Connection: None
+Melee: No
+Distance: Medium range projectile
+Type: Medieval, Magical

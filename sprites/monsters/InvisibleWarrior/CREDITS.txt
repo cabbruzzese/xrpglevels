@@ -1,0 +1,6 @@
+Submitted: Kore
+Decorate: Kore
+GLDefs: Kore
+Sounds: Raven Software, Rogue Entertainment
+Sprites: Raven Software
+Sprite Edit: Rolls

@@ -5,3 +5,55 @@ MDIE1	MUSHDIE1
 MDIE2	MUSHDIE2
 MDIE3	MUSHDIE3
 Mushroom/Fire		MUSHBURN
+
+
+monster/dknhit dsdknhit
+monster/dknsit dsdknsit
+monster/dknpai dsdknpai
+monster/dkndth dsdkndth
+monster/dknact dsdknact
+monster/dknswg dsdknswg
+
+monster/dkndrt dsdkndrt
+weapons/firex2 dsfirex2
+monster/dknmsl dsdknmsl
+weapons/boom1 dsboom1
+weapons/boltfi dsboltfi
+weapons/firex4 dsfirex4
+weapons/scorch dsscorch
+
+LostSpirit/shoot DSLSPISH
+LostSpirit/charge DSLSPICH
+LostSpirit/death DSLSPIDE
+LostSpirit/active DSLSPIAC
+
+$random monster/nshsit		{ monster/nshsi1  monster/nshsi2 }
+monster/nshsi1                  dsnshsi1
+monster/nshsi2                  dsnshsi2
+monster/nshact                  dsnshact
+monster/nshpai                  dsnshpai
+monster/nshdth                  dsnshdth
+monster/nshatk                  dsnshatk
+monster/nshexp                  dsnshexp
+
+monster/falsit dsfalsit
+monster/falpai dsfalpai
+monster/faldth dsfaldth
+monster/falact dsfalact
+monster/falwng dsfalwng
+weapons/firmfi dsfirmfi
+weapons/firex5 dsfirex5
+
+scimitar/scimisee	SCIMISEE
+scimitar/scimipai	SCIMIPAI
+scimitar/scimidth	SCIMIDTH
+scimitar/scimihit	SCIMIHIT
+scimitar/scimiatk	SCIMIATK
+
+elect1		invlight
+elect2		invligh2
+
+Invisiblesee		INVSEE
+Invisiblehit		INVHIT
+Invisiblepain		INVPAIN
+Invisibledeath		INVDEATH

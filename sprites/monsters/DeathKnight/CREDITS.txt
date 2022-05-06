@@ -1,0 +1,6 @@
+Code: Eriance, Ghastly (ZScript conversion)
+GLDefs: Ghastly
+Sounds: Raven Software, Eriance
+Sprites: Raven Software
+Sprite Edit: Eriance
+Idea Base: Heretic Undead Warrior

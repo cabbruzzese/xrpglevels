@@ -184,7 +184,7 @@ class GreatFireBull : ZFireBull
 	}
 }
 
-class TombstonePride : Actor
+class TombstonePride : SwitchableDecoration
 {
 	Default
 	{
@@ -194,8 +194,12 @@ class TombstonePride : Actor
 	}
 	States
 	{
+	InActive:
 	Spawn:
 		TMSP A -1;
+		Stop;
+	Active:
+		TMSP H -1;
 		Stop;
 	}
 }

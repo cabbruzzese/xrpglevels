@@ -24,9 +24,604 @@ PointLight BURNSHROOM4
 
 Object SentientMushroom
 {
-Frame MSHRL { Light BURNSHROOM1 }
-Frame MSHRM { Light BURNSHROOM2 }
-Frame MSHRN { Light BURNSHROOM3 }
-Frame MSHRO { Light BURNSHROOM4 }
-Frame MSHRP { Light BURNSHROOM1 }
+	Frame MSHRL { Light BURNSHROOM1 }
+	Frame MSHRM { Light BURNSHROOM2 }
+	Frame MSHRN { Light BURNSHROOM3 }
+	Frame MSHRO { Light BURNSHROOM4 }
+	Frame MSHRP { Light BURNSHROOM1 }
+}
+
+PulseLight LostSpiritFlight
+{
+	color 0.4 0.7 0.7
+	size 28
+	secondarySize 32
+	interval 2
+	offset 0 8 0
+	dontlightself 1
+}
+
+PulseLight LostSpiritDeath1
+{
+	color 0.4 0.7 0.7
+	size 40
+	secondarySize 44
+	interval 1
+	offset 0 8 0
+	dontlightself 1
+}
+
+PulseLight LostSpiritDeath2
+{
+	color 0.4 0.7 0.7
+	size 36
+	secondarySize 40
+	interval 1
+	offset 0 8 0
+	dontlightself 1
+}
+
+PulseLight LostSpiritDeath3
+{
+	color 0.4 0.7 0.7
+	size 32
+	secondarySize 36
+	interval 1
+	offset 0 8 0
+	dontlightself 1
+}
+
+PulseLight LostSpiritDeath4
+{
+	color 0.4 0.7 0.7
+	size 28
+	secondarySize 32
+	interval 1
+	offset 0 8 0
+	dontlightself 1
+}
+
+PulseLight LostSpiritAttack
+{
+	color 0.4 0.7 0.7
+	size 16
+	secondarySize 20
+	interval 1
+	offset 0 0 0
+	dontlightself 1
+}
+
+Object LostSpirit
+{
+	Frame LSPIA	{Light LostSpiritFlight}
+	Frame LSPIB	{Light LostSpiritFlight}
+	Frame LSPIC	{Light LostSpiritFlight}
+	Frame LSPID	{Light LostSpiritFlight}
+	Frame LSPIF	{Light LostSpiritDeath1}
+	Frame LSPIF	{Light LostSpiritDeath1}
+	Frame LSPIG	{Light LostSpiritDeath2}
+	Frame LSPIH	{Light LostSpiritDeath3}
+	Frame LSPII	{Light LostSpiritDeath4}
+	Frame LSPIJ	{Light LostSpiritDeath4}
+}
+
+FlickerLight2 FallenLight
+{
+Color 1.0 0.5 0.2
+Size 128
+SecondarySize 64
+Interval 8
+}
+
+Pointlight FallenLight2
+{
+Color 1.0 0.5 0.2
+Size 96
+}
+
+Pointlight FallenLight3
+{
+Color 1.0 0.5 0.2
+Size 64
+}
+
+Pointlight FallenLight4
+{
+Color 1.0 0.5 0.2
+Size 32
+}
+
+Object Fallen
+{
+Frame FALNA { Light FallenLight }
+Frame FALNB { Light FallenLight }
+Frame FALNC { Light FallenLight }
+Frame FALND { Light FallenLight }
+Frame FALNE { Light FallenLight }
+Frame FALNF { Light FallenLight }
+Frame FALNG { Light FallenLight }
+Frame FALNH { Light FallenLight2 }
+Frame FALNI { Light FallenLight3 }
+Frame FALNJ { Light FallenLight4 }
+}
+
+
+Pointlight FallenShot
+{
+Color 0.8 0.4 0.2
+Size 32
+}
+
+Pointlight FallenShot2
+{
+Color 1.0 0.5 0.3
+Size 48
+}
+
+Pointlight FallenShot3
+{
+Color 0.8 0.4 0.2
+Size 40
+}
+
+Pointlight FallenShot4
+{
+Color 0.5 0.2 0.0
+Size 24
+}
+
+Pointlight FallenShot5
+{
+Color 0.3 0.15 0.0
+Size 16
+}
+
+Object FallenShot
+{
+Frame BALFA { Light FallenShot }
+Frame BALFB { Light FallenShot }
+Frame BALFC { Light FallenShot2 }
+Frame BALFD { Light FallenShot3 }
+Frame BALFE { Light FallenShot4 }
+Frame BALFF { Light FallenShot5 }
+}
+
+
+//Brightmaps
+
+BrightMap Sprite FALNA1
+{
+    Map BMFALNA1
+    DisableFullBright
+}
+
+BrightMap Sprite FALNA2A8
+{
+    Map BMFALNA2
+    DisableFullBright
+}
+
+BrightMap Sprite FALNA3A7
+{
+    Map BMFALNA3
+    DisableFullBright
+}
+
+BrightMap Sprite FALNA4A6
+{
+    Map BMFALNA4
+    DisableFullBright
+}
+
+BrightMap Sprite FALNA5
+{
+    Map BMFALNA5
+    DisableFullBright
+}
+
+BrightMap Sprite FALNB1
+{
+    Map BMFALNB1
+    DisableFullBright
+}
+
+BrightMap Sprite FALNB2B8
+{
+    Map BMFALNB2
+    DisableFullBright
+}
+
+BrightMap Sprite FALNB3B7
+{
+    Map BMFALNB3
+    DisableFullBright
+}
+
+BrightMap Sprite FALNB4B6
+{
+    Map BMFALNB4
+    DisableFullBright
+}
+
+BrightMap Sprite FALNB5
+{
+    Map BMFALNB5
+    DisableFullBright
+}
+
+BrightMap Sprite FALNC1
+{
+    Map BMFALNC1
+    DisableFullBright
+}
+
+BrightMap Sprite FALNC2C8
+{
+    Map BMFALNC2
+    DisableFullBright
+}
+
+BrightMap Sprite FALNC3C7
+{
+    Map BMFALNC3
+    DisableFullBright
+}
+
+BrightMap Sprite FALNC4C6
+{
+    Map BMFALNC4
+    DisableFullBright
+}
+
+BrightMap Sprite FALNC5
+{
+    Map BMFALNC5
+    DisableFullBright
+}
+
+BrightMap Sprite FALND1
+{
+    Map BMFALND1
+    DisableFullBright
+}
+
+BrightMap Sprite FALND2D8
+{
+    Map BMFALND2
+    DisableFullBright
+}
+
+BrightMap Sprite FALND3D7
+{
+    Map BMFALND3
+    DisableFullBright
+}
+
+BrightMap Sprite FALND4D6
+{
+    Map BMFALND4
+    DisableFullBright
+}
+
+BrightMap Sprite FALND5
+{
+    Map BMFALND5
+    DisableFullBright
+}
+
+BrightMap Sprite FALNE1
+{
+    Map BMFALNE1
+    DisableFullBright
+}
+
+BrightMap Sprite FALNE2E8
+{
+    Map BMFALNE2
+    DisableFullBright
+}
+
+BrightMap Sprite FALNE3E7
+{
+    Map BMFALNE3
+    DisableFullBright
+}
+
+BrightMap Sprite FALNE4E6
+{
+    Map BMFALNE4
+    DisableFullBright
+}
+
+BrightMap Sprite FALNE5
+{
+    Map BMFALNE5
+    DisableFullBright
+}
+
+BrightMap Sprite FALNF1
+{
+    Map BMFALNF1
+    DisableFullBright
+}
+
+BrightMap Sprite FALNF2F8
+{
+    Map BMFALNF2
+    DisableFullBright
+}
+
+BrightMap Sprite FALNF3F7
+{
+    Map BMFALNF3
+    DisableFullBright
+}
+
+BrightMap Sprite FALNF4F6
+{
+    Map BMFALNF4
+    DisableFullBright
+}
+
+BrightMap Sprite FALNF5
+{
+    Map BMFALNF5
+    DisableFullBright
+}
+
+BrightMap Sprite FALNG1
+{
+    Map BMFALNG1
+    DisableFullBright
+}
+
+BrightMap Sprite FALNG2G8
+{
+    Map BMFALNG2
+    DisableFullBright
+}
+
+BrightMap Sprite FALNG3G7
+{
+    Map BMFALNG3
+    DisableFullBright
+}
+
+BrightMap Sprite FALNG4G6
+{
+    Map BMFALNG4
+    DisableFullBright
+}
+
+BrightMap Sprite FALNG5
+{
+    Map BMFALNG5
+    DisableFullBright
+}
+
+BrightMap Sprite FALNH0
+{
+    Map BMFALNH0
+    DisableFullBright
+}
+
+BrightMap Sprite FALNI0
+{
+    Map BMFALNI0
+    DisableFullBright
+}
+
+BrightMap Sprite FALNJ0
+{
+    Map BMFALNJ0
+    DisableFullBright
+}
+
+BrightMap Sprite FALNK0
+{
+    Map BMFALNK0
+    DisableFullBright
+}
+
+BrightMap Sprite FALNL0
+{
+    Map BMFALNL0
+    DisableFullBright
+}
+
+BrightMap Sprite BALFA1
+{
+    Map BMBALFA1
+    DisableFullBright
+}
+
+BrightMap Sprite BALFA2A8
+{
+    Map BMBALFA2
+    DisableFullBright
+}
+
+BrightMap Sprite BALFA3A7
+{
+    Map BMBALFA3
+    DisableFullBright
+}
+
+BrightMap Sprite BALFA4A6
+{
+    Map BMBALFA4
+    DisableFullBright
+}
+
+BrightMap Sprite BALFA5
+{
+    Map BMBALFA5
+    DisableFullBright
+}
+
+BrightMap Sprite BALFB1
+{
+    Map BMBALFB1
+    DisableFullBright
+}
+
+BrightMap Sprite BALFB2B8
+{
+    Map BMBALFB2
+    DisableFullBright
+}
+
+BrightMap Sprite BALFB3B7
+{
+    Map BMBALFB3
+    DisableFullBright
+}
+
+BrightMap Sprite BALFB4B6
+{
+    Map BMBALFB4
+    DisableFullBright
+}
+
+BrightMap Sprite BALFB5
+{
+    Map BMBALFB5
+    DisableFullBright
+}
+
+BrightMap Sprite BALFC0
+{
+    Map BMBALFC0
+    DisableFullBright
+}
+
+BrightMap Sprite BALFD0
+{
+    Map BMBALFD0
+    DisableFullBright
+}
+
+BrightMap Sprite BALFE0
+{
+    Map BMBALFE0
+    DisableFullBright
+}
+
+BrightMap Sprite BALFF0
+{
+    Map BMBALFF0
+    DisableFullBright
+}
+
+BrightMap Sprite FBFXA0
+{
+    Map BMFBFXA0
+    DisableFullBright
+}
+
+BrightMap Sprite FBFXB0
+{
+    Map BMFBFXB0
+    DisableFullBright
+}
+
+BrightMap Sprite FBFXC0
+{
+    Map BMFBFXC0
+    DisableFullBright
+}
+
+BrightMap Sprite FBFXD0
+{
+    Map BMFBFXD0
+    DisableFullBright
+}
+
+BrightMap Sprite FBFXE0
+{
+    Map BMFBFXE0
+    DisableFullBright
+}
+
+BrightMap Sprite FBSPA0
+{
+    Map BMFBSPA0
+    DisableFullBright
+}
+
+BrightMap Sprite FBSPB0
+{
+    Map BMFBSPB0
+    DisableFullBright
+}
+
+BrightMap Sprite FBSPC0
+{
+    Map BMFBSPC0
+    DisableFullBright
+}
+
+BrightMap Sprite FBSPD0
+{
+    Map BMFBSPD0
+    DisableFullBright
+}
+
+BrightMap Sprite FBSPE0
+{
+    Map BMFBSPE0
+    DisableFullBright
+}
+
+Pointlight invlight0
+{
+Color 0.0 0.5 1.0
+Size 160
+}
+
+Pointlight invlight1
+{
+Color 0.0 0.5 0.5
+Size 150
+}
+
+Pointlight invlight2
+{
+Color 0.0 0.2 0.8
+Size 140
+}
+
+Pointlight invlight3
+{
+Color 0.0 0.25 0.75
+Size 130
+}
+
+Pointlight invlight4
+{
+Color 0.0 0.1 0.9
+Size 120
+}
+
+Pointlight invlight5
+{
+Color 0.0 0.0 1.0
+Size 130
+}
+
+Pointlight invlight6
+{
+Color 0.0 0.3 0.6
+Size 140
+}
+
+Object InvisibleAttackFX
+{
+Frame DAXDR { Light invlight0 }
+Frame DAXDS { Light invlight1 }
+Frame DAXDT { Light invlight2 }
+Frame DAXDU { Light invlight3 }
+Frame DAXDV { Light invlight4 }
+Frame DAXDW { Light invlight5 }
+Frame DAXDX { Light invlight6 }
 }

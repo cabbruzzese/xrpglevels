@@ -138,7 +138,7 @@ class XRpgMinotaurMinion : Minotaur
 	}
 }
 
-class MinotaurPriest : MageMonster replaces HellGuard
+class MinotaurPriest : MageMonster
 {
     Default
     {

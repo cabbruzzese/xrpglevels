@@ -1,0 +1,7 @@
+Name: Scimitar
+Difficulty: Easy
+Connection: None
+Summon: Scimitar
+Melee: Yes
+Distance: Projectile
+Type: Magical

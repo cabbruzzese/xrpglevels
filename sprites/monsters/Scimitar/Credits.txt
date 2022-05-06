@@ -1,0 +1,4 @@
+Submitted: CodenniumRed
+Decorate: CodenniumRed
+Sounds: Raven
+Sprites: Neoworm

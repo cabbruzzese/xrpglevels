@@ -1,0 +1,10 @@
+Name: Nightshade
+Difficulty: Easy
+Connection: None
+Summon: Nightshade
+Melee: No
+Distance: Projectile
+Type: Demon
+Brightmaps: No
+Actor modification: No
+ACS: No

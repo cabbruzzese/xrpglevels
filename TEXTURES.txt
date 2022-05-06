@@ -56,3 +56,11 @@ texture GRoman, 128, 128
       translation Desaturate, 32
    }
 }
+
+texture GCave02, 128, 128
+{
+   Patch Cave02, 0, 0
+   {
+      translation Desaturate, 256
+   }
+}
