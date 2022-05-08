@@ -5,6 +5,7 @@ class PrideEttin : Ettin
         +BOSS
         +NOICEDEATH
         +DONTMORPH
+        +NOTELEOTHER
     }
 
     override int TakeSpecialDamage(Actor inflictor, Actor source, int damage, Name damagetype)
@@ -48,6 +49,10 @@ class PrideEttin : Ettin
 
 class PrideDaemon : Dragon
 {
+    Default
+    {
+        +NOTELEOTHER
+    }
     override int TakeSpecialDamage(Actor inflictor, Actor source, int damage, Name damagetype)
     {
         let playerObj = PlayerPawn(source);
