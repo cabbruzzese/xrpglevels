@@ -1,3 +1,8 @@
+const SCRIPT_GLUTTONY_VIAL = 213;
+const SCRIPT_PRIDE_ETTIN = 214;
+const SCRIPT_PRIDE_DEMON = 215;
+const SCRIPT_GREED_URN = 216;
+
 class PrideEttin : Ettin
 {
     Default
@@ -36,7 +41,7 @@ class PrideEttin : Ettin
         {
             int scriptNum = Args[0];
             if (scriptNum == 0)
-                scriptNum = 214;
+                scriptNum = SCRIPT_PRIDE_ETTIN;
             
             ACS_Execute(scriptNum);
 
@@ -60,7 +65,7 @@ class PrideDaemon : Dragon
         {
             int scriptNum = Args[0];
             if (scriptNum == 0)
-                scriptNum = 215;
+                scriptNum = SCRIPT_PRIDE_DEMON;
             
             ACS_Execute(scriptNum);
         }

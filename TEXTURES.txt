@@ -64,3 +64,55 @@ texture GCave02, 128, 128
       translation Desaturate, 256
    }
 }
+
+texture GoldTile, 64, 128
+{
+   Patch FOREST05, 0, 0
+   {
+      translation Gold
+   }
+}
+
+texture RedTile, 64, 128
+{
+   Patch FOREST05, 0, 0
+   {
+      translation Red
+   }
+}
+
+texture RedCloth, 64, 64
+{
+   Patch F_072, 0, 0
+   {
+      translation Red
+   }
+}
+
+texture RedCur, 64, 128
+{
+   Patch curtain, 0, 0
+   {
+      translation Red
+   }
+}
+
+texture RedCur2, 64, 128
+{
+   Patch curtain2, 0, 0
+   {
+      translation Red
+   }
+}
+
+texture GoldTrim, 32, 128
+{
+   Patch GILO1, 0, 0
+   {
+      translation Gold
+   }
+   Patch GILO2, 16, 0
+   {
+      translation Gold
+   }
+}

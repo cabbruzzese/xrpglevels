@@ -22,3 +22,8 @@ ICOLA0
 Kabourek Roman
 https://sketchfab.com/3d-models/ionic-column-c9bfad9125de4a06956beffc5e071531
 License: CC Attribution-NonCommercial
+
+CHSTA1, CHSPA0, CHSMA0
+Multipainkiller Studio
+https://sketchfab.com/3d-models/treasure-chest-b124919b7bc3470c82daeef72823f941
+License: CC Attribution

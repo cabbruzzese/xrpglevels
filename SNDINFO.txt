@@ -57,3 +57,13 @@ Invisiblesee		INVSEE
 Invisiblehit		INVHIT
 Invisiblepain		INVPAIN
 Invisibledeath		INVDEATH
+
+monster/tensit                  dstensit
+monster/tenact                  dstenact
+monster/tenatk                  dstenatk
+monster/tenpn1                  dstenpn1
+monster/tenpn2                  dstenpn2
+monster/tenpn3                  dstenpn3
+monster/tendth                  dstendth
+
+$random monster/tenpai	{ monster/tenpn1 monster/tenpn2 monster/tenpn3 }

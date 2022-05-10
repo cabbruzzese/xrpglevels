@@ -1,0 +1,10 @@
+Name: Core Tentacle
+Difficulty: Medium
+Connections: None
+Summon: Tentacle1, Tentacle2
+Melee: No
+Distance: Projectile
+Type: Demon
+Brightmaps: No
+Actor modifications: No
+ACS: No

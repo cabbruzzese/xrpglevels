@@ -1,0 +1,4 @@
+Code: Eriance, Blue Shadow (clean-up), Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon
+Sounds: id Software
+Sprites: Eriance

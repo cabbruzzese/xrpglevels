@@ -263,3 +263,47 @@ class TombstoneSloth : TombstonePride
 		Stop;
 	}
 }
+
+class TreasureChest : SwitchableDecoration
+{
+	Default
+	{
+		Radius 24;
+		Height 48;
+		+SOLID
+	}
+	States
+	{
+	InActive:
+		CHST A 1 A_StartSound("DoorCloseHeavy");
+	Spawn:
+		CHST A -1;
+		Stop;
+	Active:
+		CHST B 1 A_StartSound("DoorCreak");
+		CHST B -1;
+		Stop;
+	}
+}
+
+class TreasureChestPuzzle : TreasureChest
+{
+	Default
+	{
+		Radius 24;
+		Height 48;
+		+SOLID
+	}
+	States
+	{
+	InActive:
+		CHSP A 1 A_StartSound("DoorCloseHeavy");
+	Spawn:
+		CHSP A -1;
+		Stop;
+	Active:
+		CHSP B 1 A_StartSound("DoorCreak");
+		CHSP B -1;
+		Stop;
+	}
+}

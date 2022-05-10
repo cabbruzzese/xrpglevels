@@ -6,9 +6,20 @@ class GluttonyVial : CrystalVial
 
         if (success)
         {
-            ACS_Execute(213); //Script reserved for gluttony vial
+            ACS_Execute(SCRIPT_GLUTTONY_VIAL); //Script reserved for gluttony vial
         }
 
         return success;
+    }
+}
+
+class GreedUrn : ArtiSuperHealth
+{
+    override bool TryPickup (in out Actor other)
+    {
+        ACS_Execute(SCRIPT_GREED_URN); //Script reserved for greed urn
+
+        Destroy();
+        return false;
     }
 }

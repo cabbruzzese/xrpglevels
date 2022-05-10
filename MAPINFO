@@ -194,4 +194,8 @@ DoomEdNums
  11032 = Fallen
  11033 = LostSpirit
  11034 = NightShade
+ 11035 = TreasureChest
+ 11036 = GreedUrn
+ 11037 = TreasureChestPuzzle
+ 11038 = Mimic
 }
