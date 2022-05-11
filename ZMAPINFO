@@ -236,6 +236,9 @@ DoomEdNums
    11036 = GreedUrn
    11037 = TreasureChestPuzzle
    11038 = Mimic
+   11039 = GreedWings
+   11040 = GreedCoin
+   11041 = GreedSerpent
 }
 
 cluster 1

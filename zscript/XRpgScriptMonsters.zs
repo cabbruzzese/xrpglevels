@@ -2,6 +2,8 @@ const SCRIPT_GLUTTONY_VIAL = 213;
 const SCRIPT_PRIDE_ETTIN = 214;
 const SCRIPT_PRIDE_DEMON = 215;
 const SCRIPT_GREED_URN = 216;
+const SCRIPT_GREED_WINGS = 217;
+const SCRIPT_GREED_SERPENT = 218;
 
 class PrideEttin : Ettin
 {
@@ -71,5 +73,45 @@ class PrideDaemon : Dragon
         }
 
         return damage;
+    }
+}
+
+class GreedSerpent : Demon1
+{
+    Default
+    {
+        +BOSS
+        +NOICEDEATH
+        +DONTMORPH
+        +NOTELEOTHER
+        +PICKUP
+    }
+
+    override int TakeSpecialDamage(Actor inflictor, Actor source, int damage, Name damagetype)
+    {
+        int retaliation = damage;
+
+        let playerObj = PlayerPawn(source);
+        if (damage > 0 && playerObj && playerObj.health > 0)
+        {
+            let vecOffset = (Pos.X - playerObj.Pos.X, Pos.Y - playerObj.Pos.Y);
+            let attackAngle = Vectorangle(vecOffset.x, vecOffset.y);
+
+            playerObj.Thrust(-25, attackAngle);
+
+            playerObj.A_DamageSelf(retaliation);
+        }
+
+        return 0;
+    }
+
+    void GetCoin()
+    {
+        A_DamageSelf(1000000);
+        int scriptNum = Args[0];
+        if (scriptNum == 0)
+            scriptNum = SCRIPT_GREED_SERPENT;
+        
+        ACS_Execute(scriptNum);
     }
 }

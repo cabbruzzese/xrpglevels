@@ -5,6 +5,9 @@ FN_SNAKESERPENT = "Snake Stalker";
 TXT_KEY_VILLAGE = "Village Key";
 TXT_KEY_SIGIL = "Sigil Key";
 
+TXT_ARTIPUZZGREEDCOIN = "This Pure Gold Coin Glitters like the Sun. Imagine what it's worth!";
+TAG_ARTIPUZZGREEDCOIN = "A Coin that Glitters like the Sun"
+
 OB_ACIDTRAP = "%o was melted by an acid trap.";
 
 OB_SNAKESSTALKER = "%o tasted a snake stalker's venom.";
