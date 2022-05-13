@@ -116,3 +116,9 @@ texture GoldTrim, 32, 128
       translation Gold
    }
 }
+
+texture GateTall, 64, 256
+{
+   Patch GATE51, 0, 0
+   PAtch GATE51, 0, 128
+}

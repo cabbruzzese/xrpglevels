@@ -1,0 +1,6 @@
+Submitted: TODM
+Decorate: TODM
+Sounds: Sirens.wad
+Sprites: Sirens.wad
+Sprite Edit: TODM
+Idea Base: Arch-vile, Pain Elemental, Ovelord, The fact that Doom is a Sausage-Fest Monsterwise, Apprentice Of D'Sparil,Sirens.wad

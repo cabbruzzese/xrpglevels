@@ -1,0 +1,7 @@
+Name: Banshee
+Difficulty: Hard
+Connections: Uses Lost Soul,Uses Modified Teleport from Overlord
+Summon: Banshee
+Melee: Yes
+Distance: Projectile
+Type: Demon, Human, Magical, Fire.
