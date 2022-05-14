@@ -60,6 +60,7 @@ class PrideDaemon : Dragon
     Default
     {
         +NOTELEOTHER
+        +DONTMORPH
     }
     override int TakeSpecialDamage(Actor inflictor, Actor source, int damage, Name damagetype)
     {
@@ -127,11 +128,14 @@ class DesireBanshee : Actor
         Mass 50;
         Speed 8;
         PainChance 100;
-        +FLOORCLIP 
+        +FLOAT
+        +NOGRAVITY
         +NOTARGET
+        +NOBLOOD
         +BOSS
         +NOTELEOTHER
         +DONTMORPH
+        +NOICEDEATH
         SeeSound "Banshee/Sight";
         PainSound "Banshee/Pain";
         DeathSound "Banshee/Death";
@@ -243,10 +247,10 @@ class BansheeFire : Actor
 {
     Default
     {
-        Radius 13;
+        Radius 8;
         Height 8;
-        Speed 15;
-        Damage 2;
+        Speed 12;
+        Damage 6;
         Projectile;
         +RANDOMIZE
         +RIPPER

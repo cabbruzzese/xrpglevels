@@ -199,7 +199,7 @@ class TombstonePride : SwitchableDecoration
 		TMSP A -1;
 		Stop;
 	Active:
-		TMSP H -1;
+		TMSP H -1 A_NoBlocking;
 		Stop;
 	}
 }
