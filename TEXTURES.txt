@@ -122,3 +122,14 @@ texture GateTall, 64, 256
    Patch GATE51, 0, 0
    PAtch GATE51, 0, 128
 }
+
+texture GreenMtr, 128,128
+{
+   patch Monk09, 0, 14
+   {
+      translation Green
+   }
+
+   patch F_028, 0, 0
+   patch F_028, 64, 0
+}
