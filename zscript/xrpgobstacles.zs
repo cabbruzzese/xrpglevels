@@ -307,3 +307,43 @@ class TreasureChestPuzzle : TreasureChest
 		Stop;
 	}
 }
+
+class Candle1 : SwitchableDecoration
+{
+	Default
+	{
+		Radius 20;
+		Height 16;
+		+NOBLOCKMAP
+	}
+	States
+	{
+	InActive:
+		TST4 A -1;
+		Stop;
+	DripWax:
+		CAN1 DEF 6;
+	Spawn:
+	Active:
+		CAN1 ABC 6;
+		TNT1 A 0 A_Jump(24, "DripWax");
+		Loop;
+	}
+}
+
+class Candle2 : Candle1
+{
+	States
+	{
+	InActive:
+		TST5 A -1;
+		Stop;
+	DripWax:
+		CAN2 DEF 6;
+	Spawn:
+	Active:
+		CAN2 ABC 6;
+		TNT1 A 0 A_Jump(24, "DripWax");
+		Loop;
+	}
+}

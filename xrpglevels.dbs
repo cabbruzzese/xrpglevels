@@ -1381,9 +1381,9 @@ maps
 		}
 		defaultfloortexture = "F_022";
 		defaultceiltexture = "F_022";
-		defaulttoptexture = "CAVE02";
-		defaultwalltexture = "CAVE02";
-		defaultbottomtexture = "CAVE02";
+		defaulttoptexture = "F_075";
+		defaultwalltexture = "F_075";
+		defaultbottomtexture = "F_075";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -1396,9 +1396,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 187.9837f;
-		viewpositiony = -64.52302f;
-		viewscale = 1.428047f;
+		viewpositionx = 29.23029f;
+		viewpositiony = 317.0795f;
+		viewscale = 1.428037f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -1409,7 +1409,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 16;
+			gridsize = 8;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -1453,7 +1453,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 389;
+				caretposition = 456;
+				firstvisibleline = 8;
 				activetab = true;
 			}
 		}

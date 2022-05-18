@@ -27,3 +27,6 @@ CHSTA1, CHSPA0, CHSMA0
 Multipainkiller Studio
 https://sketchfab.com/3d-models/treasure-chest-b124919b7bc3470c82daeef72823f941
 License: CC Attribution
+
+CAN1A0, CAN2A0
+Frankensprite of TST4 and TST5 and the torch from Hexen
