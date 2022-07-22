@@ -242,7 +242,11 @@ DoomEdNums
    11042 = DesireBanshee
    11043 = Candle1
    11044 = Candle2
-}
+   11045 = GasVial
+   11046 = GasBlueMana
+   11047 = GasGreenMana
+   11048 = GasCombinedMana
+ }
 
 cluster 1
 {

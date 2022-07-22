@@ -117,3 +117,67 @@ class GreedCoin : Inventory
         return super.TryPickup(toucher);
     }
 }
+
+class GasVial : CrystalVial
+{
+    override bool TryPickup (in out Actor other)
+    {
+        bool success = super.TryPickup(other);
+
+        if (success)
+        {
+            A_StartSound("PoisonShroomDeath");
+            Actor mo = Spawn("PoisonLeaderCloud", pos + (0, 0, 28), ALLOW_REPLACE);
+        }
+
+        return success;
+    }
+}
+
+class GasBlueMana : Mana1
+{
+    override bool TryPickup (in out Actor other)
+    {
+        bool success = super.TryPickup(other);
+
+        if (success)
+        {
+            A_StartSound("PoisonShroomDeath");
+            Actor mo = Spawn("PoisonLeaderCloud", pos + (0, 0, 28), ALLOW_REPLACE);
+        }
+
+        return success;
+    }
+}
+
+class GasGreenMana : Mana2
+{
+    override bool TryPickup (in out Actor other)
+    {
+        bool success = super.TryPickup(other);
+
+        if (success)
+        {
+            A_StartSound("PoisonShroomDeath");
+            Actor mo = Spawn("PoisonLeaderCloud", pos + (0, 0, 28), ALLOW_REPLACE);
+        }
+
+        return success;
+    }
+}
+
+class GasCombinedMana : Mana3
+{
+    override bool TryPickup (in out Actor other)
+    {
+        bool success = super.TryPickup(other);
+
+        if (success)
+        {
+            A_StartSound("PoisonShroomDeath");
+            Actor mo = Spawn("PoisonLeaderCloud", pos + (0, 0, 28), ALLOW_REPLACE);
+        }
+
+        return success;
+    }
+}
