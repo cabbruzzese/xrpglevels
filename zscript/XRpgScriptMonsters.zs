@@ -165,7 +165,7 @@ class DesireBanshee : Actor
     Missile2:  
         BANS B 0 A_FaceTarget;
         BANS BCD 6;
-        BANS D 0 A_CustomMissile("BansheeFire",  50, 0,   0);
+        BANS D 0 A_SpawnProjectile("BansheeFire", 50);
         Goto Missile;
     Missile3:  
         BANS B 0 A_FaceTarget;
@@ -206,8 +206,8 @@ class DesireBanshee : Actor
     Death:
         BANS G 6 A_Scream;
         BANS H 6 A_NoBlocking;
-        BANS I 3 A_CustomMissile("SpawnFire", 0, 0, 0);
-        BANS I 3 A_CustomMissile("SpawnFire", 0, 0, 0);
+        BANS I 3 A_SpawnProjectile("SpawnFire", 0);
+        BANS I 3 A_SpawnProjectile("SpawnFire", 0);
         BANS IJKLMNOPQR 6;
         BANS R -1;
         Stop;
