@@ -246,6 +246,9 @@ DoomEdNums
    11046 = GasBlueMana
    11047 = GasGreenMana
    11048 = GasCombinedMana
+   11049 = ChaosWyvern
+   11050 = XRpgJuggernaut
+
  }
 
 cluster 1
