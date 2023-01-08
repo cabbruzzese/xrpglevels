@@ -994,6 +994,7 @@ maps
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
+				requiredarchives = "";
 			}
 		}
 		defaultfloortexture = "F_059";
@@ -1013,9 +1014,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 383.6053f;
-		viewpositiony = -3704.119f;
-		viewscale = 0.6499901f;
+		viewpositionx = 591.4431f;
+		viewpositiony = -2459.142f;
+		viewscale = 0.1346625f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -1109,9 +1110,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 1150.307f;
-		viewpositiony = -688.9921f;
-		viewscale = 0.3846117f;
+		viewpositionx = 1097.204f;
+		viewpositiony = 2663.532f;
+		viewscale = 0.6499935f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -1578,9 +1579,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -406.1025f;
-		viewpositiony = -607.7014f;
-		viewscale = 1.098494f;
+		viewpositionx = -97.08675f;
+		viewpositiony = -446.7337f;
+		viewscale = 1.856451f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -1635,8 +1636,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 2622;
-				firstvisibleline = 124;
+				caretposition = 1141;
+				firstvisibleline = 36;
 				activetab = true;
 			}
 		}
