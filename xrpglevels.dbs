@@ -1187,6 +1187,7 @@ maps
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
+				requiredarchives = "";
 			}
 		}
 		defaultfloortexture = "F_011";
@@ -1283,6 +1284,7 @@ maps
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
+				requiredarchives = "";
 			}
 		}
 		defaultfloortexture = "F_010";
@@ -1359,7 +1361,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 394;
+				caretposition = 3206;
+				firstvisibleline = 108;
 				activetab = true;
 			}
 		}
@@ -1378,6 +1381,7 @@ maps
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
+				requiredarchives = "";
 			}
 		}
 		defaultfloortexture = "F_022";
@@ -1454,8 +1458,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 1855;
-				firstvisibleline = 101;
+				caretposition = 115;
 				activetab = true;
 			}
 		}
@@ -1474,6 +1477,7 @@ maps
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
+				requiredarchives = "";
 			}
 		}
 		defaultfloortexture = "F_031";
@@ -1493,9 +1497,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 165.1245f;
-		viewpositiony = 72.47677f;
-		viewscale = 4.078597f;
+		viewpositionx = 4300.463f;
+		viewpositiony = 356.713f;
+		viewscale = 1.856439f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -1550,7 +1554,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 131;
+				caretposition = 514;
 				activetab = true;
 			}
 		}
@@ -1579,9 +1583,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -97.08675f;
-		viewpositiony = -446.7337f;
-		viewscale = 1.856451f;
+		viewpositionx = -134.7437f;
+		viewpositiony = 395.9056f;
+		viewscale = 0.649995f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -1640,6 +1644,77 @@ maps
 				firstvisibleline = 36;
 				activetab = true;
 			}
+		}
+	}
+	
+	MAP18
+	{
+		
+		resources
+		{
+		}
+		defaultfloortexture = "F_078";
+		defaultceiltexture = "F_075";
+		defaulttoptexture = "FOREST10";
+		defaultwalltexture = "FOREST10";
+		defaultbottomtexture = "FOREST10";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 708.1664f;
+		viewpositiony = -208.187f;
+		viewscale = 1.42805f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 32;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 	}
 }
